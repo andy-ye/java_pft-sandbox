@@ -6,15 +6,13 @@ public class helloworld {
 
 		double l = 5;
 
-		Square s = new Square();
-		s.l = 5.0;
+		Square s = new Square(5);
 
-		Rectangle r = new Rectangle();
-		r.a = 4;
-		r.b = 6;
+		Rectangle r = new Rectangle(4, 6);
+
         System.out.println("Площадь квадрата равна " + area(s));
         System.out.println("Площадь прямоугольника равна " + areaR(r));
-        
+
         System.out.println('H'+'a'); //169
 
 	}
