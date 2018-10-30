@@ -10,8 +10,8 @@ public class helloworld {
 
 		Rectangle r = new Rectangle(4, 6);
 
-        System.out.println("Площадь квадрата равна " + area(s));
-        System.out.println("Площадь прямоугольника равна " + areaR(r));
+        System.out.println("Площадь квадрата равна " + s.area());
+        System.out.println("Площадь прямоугольника равна " + r.area());
 
         System.out.println('H'+'a'); //169
 
@@ -21,11 +21,4 @@ public class helloworld {
         System.out.println("Hello, " + somebody);
     }
 
-    public static double area(Square s){
-	    return s.l * s.l;
-    }
-
-    public static double areaR(Rectangle r){
-	    return r.a * r.b;
-    }
 }
